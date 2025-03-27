@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\samarjit_kundu\Desktop\45861_Akash_Ninav_Playwright_101\45861_Akash_Ninav_Playwright_101\Playwright1\testng.xml</span>
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,  1 skipped,  8 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Playwright.PlaywrightTest101" class="method navigator-link" hash-for-method="test_scenario3">test_scenario3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -154,6 +140,11 @@
                         <a href="#" panel-name="suite-Suite" title="Playwright.PlaywrightTest101" class="method navigator-link" hash-for-method="test_scenario3">test_scenario3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Playwright.PlaywrightTest101" class="method navigator-link" hash-for-method="test_scenario3">test_scenario3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -166,82 +157,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Playwright.PlaywrightTest101</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_scenario3">
-                  </a> <!-- test_scenario3 -->
-                  <span class="method-name">test_scenario3</span>
-                  <div class="stack-trace">com.microsoft.playwright.PlaywrightException: Error {
-  message=&apos;WebSocket error: connect ETIMEDOUT 43.204.87.215:80
-  name=&apos;Error
-  stack=&apos;Error: WebSocket error: connect ETIMEDOUT 43.204.87.215:80
-    at t.&lt;anonymous&gt; (C:\Users\SAMARJ~1\AppData\Local\Temp\playwright-java-2002165867467356372\package\lib\server\transport.js:60:16)
-    at t.emit (node:events:530:35)
-    at sa (C:\Users\SAMARJ~1\AppData\Local\Temp\playwright-java-2002165867467356372\package\lib\utilsBundleImpl\index.js:175:40894)
-    at ClientRequest.&lt;anonymous&gt; (C:\Users\SAMARJ~1\AppData\Local\Temp\playwright-java-2002165867467356372\package\lib\utilsBundleImpl\index.js:175:39145)
-    at ClientRequest.emit (node:events:518:28)
-    at emitErrorEvent (node:_http_client:103:11)
-    at _destroy (node:_http_client:886:9)
-    at onSocketNT (node:_http_client:906:5)
-    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
-}
-Call log:
--   - &lt;ws connecting&gt; ws://cdp.lambdatest.com/playwright
--   - &lt;ws error&gt; ws://cdp.lambdatest.com/playwright error connect ETIMEDOUT 43.204.87.215:80
--   - &lt;ws connect error&gt; ws://cdp.lambdatest.com/playwright connect ETIMEDOUT 43.204.87.215:80
--   - &lt;ws disconnected&gt; ws://cdp.lambdatest.com/playwright code=1006 reason=
-
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.BrowserTypeImpl.connectImpl(BrowserTypeImpl.java:86)
-	at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$connect$1(BrowserTypeImpl.java:60)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
-	at com.microsoft.playwright.impl.BrowserTypeImpl.connect(BrowserTypeImpl.java:60)
-	at com.microsoft.playwright.BrowserType.connect(BrowserType.java:1178)
-	at Playwright.PlaywrightTest101.setup(PlaywrightTest101.java:53)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: com.microsoft.playwright.impl.DriverException: Error {
-  message=&apos;WebSocket error: connect ETIMEDOUT 43.204.87.215:80
-  name=&apos;Error
-  stack=&apos;Error: WebSocket error: connect ETIMEDOUT 43.204.87.215:80
-    at t.&lt;anonymous&gt; (C:\Users\SAMARJ~1\AppData\Local\Temp\playwright-java-2002165867467356372\package\lib\server\transport.js:60:16)
-    at t.emit (node:events:530:35)
-    at sa (C:\Users\SAMARJ~1\AppData\Local\Temp\playwright-java-2002165867467356372\package\lib\utilsBundleImpl\index.js:175:40894)
-    at ClientRequest.&lt;anonymous&gt; (C:\Users\SAMARJ~1\AppData\Local\Temp\playwright-java-2002165867467356372\package\lib\utilsBundleImpl\index.js:175:39145)
-    at ClientRequest.emit (node:events:518:28)
-    at emitErrorEvent (node:_http_client:103:11)
-    at _destroy (node:_http_client:886:9)
-    at onSocketNT (node:_http_client:906:5)
-    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
-}
-Call log:
--   - &lt;ws connecting&gt; ws://cdp.lambdatest.com/playwright
--   - &lt;ws error&gt; ws://cdp.lambdatest.com/playwright error connect ETIMEDOUT 43.204.87.215:80
--   - &lt;ws connect error&gt; ws://cdp.lambdatest.com/playwright connect ETIMEDOUT 43.204.87.215:80
--   - &lt;ws disconnected&gt; ws://cdp.lambdatest.com/playwright code=1006 reason=
-
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
-	... 30 more
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -304,12 +219,19 @@ Call log:
                   <span class="method-name">test_scenario3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_scenario3">
+                  </a> <!-- test_scenario3 -->
+                  <span class="method-name">test_scenario3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\samarjit_kundu\Desktop\45861_Akash_Ninav_Playwright_101\45861_Akash_Ninav_Playwright_101\Playwright1\testng.xml</span>
+            <span class="header-content">/workspace/LamdatestPlayWright101/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -387,44 +309,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_scenario3')
 data.setCell(0, 2, 'Playwright.PlaywrightTest101')
-data.setCell(0, 3, 13664);
+data.setCell(0, 3, 6003);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_scenario2')
+data.setCell(1, 1, 'test_scenario3')
 data.setCell(1, 2, 'Playwright.PlaywrightTest101')
-data.setCell(1, 3, 8582);
+data.setCell(1, 3, 5823);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_scenario3')
+data.setCell(2, 1, 'test_scenario2')
 data.setCell(2, 2, 'Playwright.PlaywrightTest101')
-data.setCell(2, 3, 8291);
+data.setCell(2, 3, 5138);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_scenario2')
+data.setCell(3, 1, 'test_scenario1')
 data.setCell(3, 2, 'Playwright.PlaywrightTest101')
-data.setCell(3, 3, 8096);
+data.setCell(3, 3, 4245);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_scenario1')
+data.setCell(4, 1, 'test_scenario3')
 data.setCell(4, 2, 'Playwright.PlaywrightTest101')
-data.setCell(4, 3, 6393);
+data.setCell(4, 3, 4041);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'test_scenario2')
 data.setCell(5, 2, 'Playwright.PlaywrightTest101')
-data.setCell(5, 3, 6359);
+data.setCell(5, 3, 3716);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test_scenario1')
+data.setCell(6, 1, 'test_scenario2')
 data.setCell(6, 2, 'Playwright.PlaywrightTest101')
-data.setCell(6, 3, 5056);
+data.setCell(6, 3, 3581);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'test_scenario1')
 data.setCell(7, 2, 'Playwright.PlaywrightTest101')
-data.setCell(7, 3, 3696);
+data.setCell(7, 3, 2546);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'test_scenario3')
+data.setCell(8, 1, 'test_scenario1')
 data.setCell(8, 2, 'Playwright.PlaywrightTest101')
-data.setCell(8, 3, 0);
+data.setCell(8, 3, 1851);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -465,98 +387,100 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test_scenario1</span>
-                <span class="method-start">21980 ms</span>
+                <span class="method-start">12416 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_scenario1</span>
-                <span class="method-start">22313 ms</span>
+                <span class="method-start">14118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">27372 ms</span>
+                <span class="method-start">16661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">16664 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(pw-firefox, latest, macOS Sequoia )</span>
-                <span class="method-start">27623 ms</span>
+                <span class="method-start">16675 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">28373 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(pw-firefox, latest, macOS Catalina)</span>
-                <span class="method-start">28605 ms</span>
+                <span class="method-start">16675 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test_scenario2</span>
-                <span class="method-start">40043 ms</span>
+                <span class="method-start">29287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">33004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(pw-firefox, latest, macOS Sequoia )</span>
+                <span class="method-start">33013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_scenario3</span>
+                <span class="method-start">43551 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_scenario1</span>
-                <span class="method-start">45692 ms</span>
+                <span class="method-start">45958 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">48625 ms</span>
+                <span class="method-start">47592 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setup(pw-firefox, latest, macOS Sequoia )</span>
-                <span class="method-start">48975 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">49388 ms</span>
+                <span class="method-start">47809 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(pw-chromium, latest, Windows 10)</span>
-                <span class="method-start">49672 ms</span>
+                <span class="method-start">47819 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test_scenario2</span>
-                <span class="method-start">60528 ms</span>
+                <span class="method-start">75405 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">68624 ms</span>
+                <span class="method-start">78986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(pw-chromium, latest, Windows 10)</span>
+                <span class="method-start">78997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_scenario3</span>
+                <span class="method-start">100328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">106331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test_scenario2</span>
+                <span class="method-start">127877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">133016 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(pw-firefox, latest, macOS Catalina)</span>
-                <span class="method-start">68914 ms</span>
+                <span class="method-start">133030 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_scenario2</span>
-                <span class="method-start">78952 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">test_scenario3</span>
-                <span class="method-start">79531 ms</span>
+                <span class="method-start">162977 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">85312 ms</span>
+                <span class="method-start">168800 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(pw-chromium, latest, Windows 10)</span>
-                <span class="method-start">85715 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">93195 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">test_scenario3</span>
-                <span class="method-start">101110 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">109402 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">test_scenario3</span>
-                <span class="method-start">-1743022261124 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

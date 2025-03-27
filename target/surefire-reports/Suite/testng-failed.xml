@@ -9,6 +9,8 @@
       <class name="Playwright.PlaywrightTest101">
         <methods>
           <include name="test_scenario3"/>
+          <include name="test_scenario1"/>
+          <include name="test_scenario2"/>
           <include name="setup"/>
           <include name="quitDriver"/>
         </methods>
