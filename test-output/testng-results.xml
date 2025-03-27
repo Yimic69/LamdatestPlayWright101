@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-26T20:41:53Z" name="Suite" finished-at="2025-03-26T20:43:52Z" duration-ms="119305">
+    <groups>
+    </groups>
+    <test started-at="2025-03-26T20:41:53Z" name="Test in Firefox+macOS Catalina" finished-at="2025-03-26T20:43:05Z" duration-ms="72602">
+      <class name="Playwright.PlaywrightTest101">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:41:53Z" name="setup" finished-at="2025-03-26T20:42:11Z" duration-ms="18683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Catalina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario1()[pri:1, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:42:11Z" name="test_scenario1" finished-at="2025-03-26T20:42:16Z" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario1 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:42:16Z" name="quitDriver" finished-at="2025-03-26T20:42:16Z" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:42:16Z" name="setup" finished-at="2025-03-26T20:42:32Z" duration-ms="16072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Catalina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario2()[pri:2, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:42:32Z" name="test_scenario2" finished-at="2025-03-26T20:42:40Z" duration-ms="8272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario2 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:42:40Z" name="quitDriver" finished-at="2025-03-26T20:42:41Z" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:42:41Z" name="setup" finished-at="2025-03-26T20:42:52Z" duration-ms="11058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Catalina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario3()[pri:3, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:42:52Z" name="test_scenario3" finished-at="2025-03-26T20:43:05Z" duration-ms="13266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario3 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@76ed1b7c]" started-at="2025-03-26T20:43:05Z" name="quitDriver" finished-at="2025-03-26T20:43:05Z" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Playwright.PlaywrightTest101 -->
+    </test> <!-- Test in Firefox+macOS Catalina -->
+    <test started-at="2025-03-26T20:41:53Z" name="Test in Firefox+macOS Sequoia" finished-at="2025-03-26T20:43:51Z" duration-ms="118663">
+      <class name="Playwright.PlaywrightTest101">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:41:53Z" name="setup" finished-at="2025-03-26T20:42:10Z" duration-ms="17241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sequoia ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario1()[pri:1, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:42:10Z" name="test_scenario1" finished-at="2025-03-26T20:42:15Z" duration-ms="4844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario1 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:42:15Z" name="quitDriver" finished-at="2025-03-26T20:42:15Z" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:42:15Z" name="setup" finished-at="2025-03-26T20:43:20Z" duration-ms="64709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sequoia ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario2()[pri:2, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:43:20Z" name="test_scenario2" finished-at="2025-03-26T20:43:27Z" duration-ms="7312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario2 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:43:27Z" name="quitDriver" finished-at="2025-03-26T20:43:27Z" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:43:27Z" name="setup" finished-at="2025-03-26T20:43:37Z" duration-ms="9695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sequoia ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario3()[pri:3, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:43:37Z" name="test_scenario3" finished-at="2025-03-26T20:43:51Z" duration-ms="13919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario3 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@32910148]" started-at="2025-03-26T20:43:51Z" name="quitDriver" finished-at="2025-03-26T20:43:51Z" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Playwright.PlaywrightTest101 -->
+    </test> <!-- Test in Firefox+macOS Sequoia -->
+    <test started-at="2025-03-26T20:41:53Z" name="Test in Chromium+Windows 10" finished-at="2025-03-26T20:43:52Z" duration-ms="119305">
+      <class name="Playwright.PlaywrightTest101">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:41:53Z" name="setup" finished-at="2025-03-26T20:42:35Z" duration-ms="42358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario1()[pri:1, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:42:35Z" name="test_scenario1" finished-at="2025-03-26T20:42:39Z" duration-ms="4255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario1 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:42:39Z" name="quitDriver" finished-at="2025-03-26T20:42:39Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:42:39Z" name="setup" finished-at="2025-03-26T20:43:09Z" duration-ms="29492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario2()[pri:2, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:43:09Z" name="test_scenario2" finished-at="2025-03-26T20:43:17Z" duration-ms="7758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario2 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:43:17Z" name="quitDriver" finished-at="2025-03-26T20:43:17Z" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:43:17Z" name="setup" finished-at="2025-03-26T20:43:39Z" duration-ms="21730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario3()[pri:3, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:43:39Z" name="test_scenario3" finished-at="2025-03-26T20:43:51Z" duration-ms="12798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario3 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Playwright.PlaywrightTest101@4c309d4d]" started-at="2025-03-26T20:43:51Z" name="quitDriver" finished-at="2025-03-26T20:43:52Z" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Playwright.PlaywrightTest101 -->
+    </test> <!-- Test in Chromium+Windows 10 -->
+  </suite> <!-- Suite -->
+</testng-results>

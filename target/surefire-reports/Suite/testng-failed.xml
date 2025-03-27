@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="tests" name="Test in Firefox+macOS Sequoia(failed)" verbose="0">
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="browserName" value="pw-firefox"/>
+    <parameter name="platform" value="macOS Sequoia "/>
+    <classes>
+      <class name="Playwright.PlaywrightTest101">
+        <methods>
+          <include name="test_scenario3"/>
+          <include name="setup"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Playwright.PlaywrightTest101 -->
+    </classes>
+  </test> <!-- Test in Firefox+macOS Sequoia(failed) -->
+</suite> <!-- Failed suite [Suite] -->

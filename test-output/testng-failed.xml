@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Test in Chromium+Windows 10(failed)">
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="browserName" value="chromium"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="Playwright.Playwrighttest1">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="test_scenario3"/>
+          <include name="test_scenario2"/>
+          <include name="test_scenario1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Playwright.Playwrighttest1 -->
+    </classes>
+  </test> <!-- Test in Chromium+Windows 10(failed) -->
+</suite> <!-- Failed suite [Suite] -->
